@@ -1,5 +1,5 @@
 # python_challenge
-I used a number of different resources for these two assignments, including in calss assignments/lecture material, You Tube videos, rewatched class zooms, study groups with (Paul Moses, Frewoini Mebrahtu, Eric Johnson and Michelle Clark), my 13 yo child, stackoverflow, w3schools, and python.org.
+I used a number of different resources for these two assignments, including in class assignments/lecture material, You Tube videos, rewatched class zooms, study groups with (Paul Moses, Frewoini Mebrahtu, Eric Johnson and Michelle Clark), my 13 yo child, stackoverflow, w3schools, and python.org.
 
 CSV: In calss stu_census, https://docs.python.org/3/library/csv.html 
 
