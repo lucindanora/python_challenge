@@ -1,13 +1,13 @@
 # python_challenge
 I used a number of different resources for these two assignments, including in calss assignments/lecture material, You Tube videos, rewatched class zooms, study groups with (Paul Moses, Frewoini Mebrahtu, Eric Johnson and Michelle Clark), my 13 yo child, stackoverflow, w3schools, and python.org.
 
-CSV: https:In calss stu_census,  //docs.python.org/3/library/csv.html 
+CSV: In calss stu_census, https://docs.python.org/3/library/csv.html 
 
 Dictionary: In class dictionary activities- dictionaries, hobby_book.py, comicbook.py
 
-Functions:In class functions example and https://www.w3schools.com/python/python_functions.asp
+Functions: In class functions example and https://www.w3schools.com/python/python_functions.asp
 
-Write text:To write.txt file used in class main_solution.py and https://www.pythontutorial.net/python-basics/python-write-text-file/ and https://www.w3schools.com/python/python_file_write.asp
+Write text: To write.txt file used in class main_solution.py and https://www.pythontutorial.net/python-basics/python-write-text-file/ and https://www.w3schools.com/python/python_file_write.asp
 
 Place text in specific folder: Had my 13 yo help me figure out how to place .txt files into Analysis folder
 
