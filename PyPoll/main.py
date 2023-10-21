@@ -2,23 +2,22 @@
 import os
 import csv
 
-#setting file path
+#setting file path for csv
 
 election_data = "Resources/election_data.csv"
 
-#converts csv file to dictionary
-
+#converts election_data file to dictionary, and initialize dictionary
 
 def processPollData(file):
-    #in class dictionary activities (actors, hobby_book, comicbooks.py)
-    #used class functions example and https://www.w3schools.com/python/python_functions.asp 
+    
     voterdict = {}
     with open(file,"r") as csvfile:
         csvreader = csv.reader(csvfile, delimiter = ",")
+        #skip header
         csv_header = next(csvreader)
 
         for row in csvreader: 
-            #checks if candidate has been seen yet in the csv, and adds votes as appropriate
+            #checks if candidate has been seen yet in the csv, and adds votes as needed
            
             if row[2] in voterdict.keys():
                 voterdict[row[2]] += 1
@@ -28,8 +27,6 @@ def processPollData(file):
 
 
 #Find winning candidate by using max(), export .txt and placing .txt file in analysis folder
-# To write.txt file used in class main_solution.py, and https://www.pythontutorial.net/python-basics/python-write-text-file/ 
-# and https://www.w3schools.com/python/python_file_write.asp
 
 def writeReport(cdict):
     with open("Analysis/voteresults.txt","w") as textfile:
@@ -74,7 +71,7 @@ def reporting(cdict):
 
 
 
-# runs functions seen above
+# runs functions seen above 
 def main():
     candidatedict = {}
     candidatedict = processPollData(election_data)
