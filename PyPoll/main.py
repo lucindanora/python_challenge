@@ -26,6 +26,7 @@ def processPollData(file):
     return voterdict
 
 
+
 #Find winning candidate by using max(), export .txt and placing .txt file in analysis folder
 
 def writeReport(cdict):

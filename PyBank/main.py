@@ -52,7 +52,7 @@ with open(budget_path) as budget_data:
     print(f'Total Months:{total_months}')
     print(f'Total: ${sum(profits)}')
     print(f'Average Change: ${revenue_avg:.2f}')
-    print(f'Greatest Incease in Profits: ${greatest_inc}')
+    print(f'Greatest Increase in Profits: ${greatest_inc}')
     print(f'Greatest Decrease in Profits: ${greatest_dec}')
 
     #write results to text file in separate analysis file
@@ -63,7 +63,7 @@ with open(budget_path) as budget_data:
     file.write(f'Total Months:{total_months}\n')
     file.write(f'Total: ${sum(profits)}\n')
     file.write(f'Average Change: ${revenue_avg:.2f}\n')
-    file.write(f'Greatest Incease in Profits: ${greatest_inc}\n')
+    file.write(f'Greatest Increase in Profits: ${greatest_inc}\n')
     file.write(f'Greatest Decrease in Profits: ${greatest_dec}\n')
 
 
